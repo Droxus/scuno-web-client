@@ -5,7 +5,7 @@ import App from "./App.tsx";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
 createRoot(document.getElementById("root")!).render(
-  <TonConnectUIProvider manifestUrl="https://raw.githubusercontent.com/Droxus/scuno-web-client/refs/heads/main/tonconnect-manifest.json">
+  <TonConnectUIProvider manifestUrl="https://droxus.github.io/scuno-web-client/tonconnect-manifest.json">
     <StrictMode>
       <App />
     </StrictMode>
